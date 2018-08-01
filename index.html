@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>weather search</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="icon" href="images/favicon.svg">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+</head>
+    
+    
+<body>
+<div class="backgg"></div>
+    
+<div class="container">
+    
+        <div class="contnt">
+            
+                <h1>weather search</h1>
+            
+                <div class="searchboxx flex">
+                        <input type="search" class="searchw mdl-textfield--full-width" placeholder="enter city name" />
+                        <button class="search_btn" href="#" onClick="getWeather()"><i class="fas fa-search"></i></button>
+                </div>
+            
+            
+                <div class="weather-container"> <img src="https://www.metaweather.com//static/img/weather/c.svg" class="w-indicator"/>
+                        <h2 class="w-state"></h2>
+                        <h4 class="w-city"></h4>
+                </div>
+            
+            
+                <div class="loading"><i class="fas fa-spinner fa-spin"></i></div>
+                <h4 class="errorr"></h4>
+        </div>
+</div>
+<script src="script.js"></script> 
+
+<!--<p id="license">powered by <a href="https://www.metaweather.com/">metaweather</a></p>-->
+</body>
+</html>
